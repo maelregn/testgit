@@ -63,7 +63,7 @@
 			//puis ce prepare a suprimer la ligne avec cette adresse mail
 			$result = $db->prepare("DELETE FROM `regniermail` WHERE `regniermail`.`adresseMail` ='VALUES(:adresseMail_desac)'");
 				// puis met l'adresse mail que l'on a rentre dans le noms de celui que l'on suprime
-				$result->execute(array('adresseMail_desac' => $adresseMail_desac));
+				$result->execute(array('adresseMail_desac' => $adresseMail_desac));zesd
 		}
 	}
 	?>
